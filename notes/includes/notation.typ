@@ -39,4 +39,4 @@ Intuitively, when $cal(A) = bb(R)$, one can think of $alpha$ as a _time_ paramet
 - (Interpolating filtrations) For $f,g: K -> bb(R)$ filters over $K$, a natural family of filtrations $(K , h_alpha)$ is obtained by choosing a homotopy $h : bb(R) times [0, 1] -> bb(R)$ satisfying $h_0 = f$ and $h_1  = g$.
 //  _convex combinations_ of $f$ and $g$ e.g. $h_alpha = (1 - alpha) f + alpha g$ for all $alpha in lr([0 , 1])$, i.e.. More generally, any homotopy $$ between filtrations may be used. 
 
-- (Fibered barcode) For a 2-d persistence module $M$, a common invariant of interest is the _fibered barcode_, which is the collection of barcodes of $1$-d affine slices of $M$. These affine slices are themselves a 2-parameter family spanning the collection of lines in $bb(R)^2$ with non-negative slope.
+- (Fibered barcode) For a 2-d persistence module $M$, a common invariant of interest is the _fibered barcode_, which is the collection of barcodes of $1$-d affine slices of $M$. These affine slices are themselves a 2-parameter which index a family of .
