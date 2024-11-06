@@ -46,7 +46,7 @@ Note that neither persistence diagrams nor deformation-compatible simplicial map
 // In many time series applications, detecting periodic behavior can prove a difficult yet useful thing to estimate. For example, in medical images contexts, it is necessary to preprocess the data to remove noise and outliers that otherwise obscure the presence of recurrent behavior. 
 // method understands periodicity as repetition ofpatterns, whatever these may be, and quantifies this reoccurrence as the degree of circularity/roundness in the generated point-cloud.
 
-The canonical lens by which time series analysis is performed through harmonic analysis. Though mature and powerful, it can at times be more illuminating to study the data in more geometric settings. A classical example of this is Takens delay embedding theorem, which provides sufficiency conditions under which a smooth attractor of $d$-dimensional manifold can be reconstructed from its dynamics $f : M -> M$. In this context, the "reconstruction" is a phase space embedding of a given time series topologically equivalent to the original space, constructed through a _time-delay embedding_ of $f$: 
+The canonical lens by which time series analysis is performed is through harmonic analysis. Though mature and powerful, it can at times be more illuminating to study data in more geometric settings. A classical example of this is Takens delay embedding theorem, which provides sufficiency conditions under which a smooth attractor of $d$-dimensional manifold can be reconstructed from its dynamics $f : M -> M$. In this context, the "reconstruction" is a phase space embedding of a given time series topologically equivalent to the original space, constructed through a _time-delay embedding_ of $f$: 
 
 $ SW_(M, tau) f(t) = mat(delim: "[", f(t), f(t + tau), dots.h.c, f(t + M tau))^top $
 
@@ -106,7 +106,7 @@ We observed the maximum persistence was attained at around $tau approx 0.913$; t
 == Low memory persistence computations <sec:low_memory>
 
 One particular limitation of the persistence computation is its space usage. Though the initial boundary matrices (when explicitly constructed) are known to be sparse, both the constitutive matrices storing the reduced boundary chains ($R$) and the cycle representatives ($V$) are known to lose their sparsity throughout the duration of the reduction. As the number of non-zeros in $R$ affects the performance of reduction, analyzing the worst and average-case amount of "fill-in" is a subject of recent research @bauer2022keeping. Though the average case complexity is far better than the worst case, space usage is a well known to be one of the barriers antagonizing the scalability of the persistence computation. 
-As the persistence diagram may be entirely determined by rank computations, we may extend the time and space complexity results from @prop:spectral_rank_complexity directly to the computation of persistence diagrams via Chen and Kerbers divide-and-conquer approach @chen2013output. 
+As the persistence diagram may be entirely determined by rank computations, the time and space complexity results from @prop:spectral_rank_complexity extend directly to the computation of persistence diagrams via Chen and Kerbers divide-and-conquer approach @chen2013output. 
 
 #figure([
 	#image("../images/ripser_vs_laplacian.png", width: 65%)],
@@ -122,11 +122,11 @@ $
 f(theta, phi) = ((R + r cos(theta)) cos(phi), (R + r cos(theta)) sin(phi), r sin(theta))
 $ 
 
-To ensure uniform coverage of $bb(T)$, we evaluate the Rips 1-persistence computation on landmarks via $k$-prefixes of the _greedy permutation_ of a sufficiently dense point sample, for $k$ varying along evenly spaced points from $50$ to $2500$ (yielding complexes with sizes ranging from $2.0 dot 10^4$ to $2.6 dot 10^9$ simplices, respectively).
-For each $k$, we compute the Rips persistence up to the enclosing radius to ensure all pairs with finite persistence are constructed. 
-The result are summarized in @fig:ripser_vs_laplacian compared to the popular software _Ripser_ @bauer2021ripser.
-For an even comparison to _Ripser_, we record the maximum (heap) memory usage of both _Ripser_ and the constant-degree Lanczos method space usage by monitoring all system allocations using the software _Memray_#footnote[See https://bloomberg.github.io/memray/memory.html for an overview of how memory is measured.].
-To isolate the simplices which contribute to the space usage, like _Ripser_, we use the _apparent pairs_ optimization throughout the computation to discard zero-persistence pairs (see @sec:apparent-pairs-optimization).
+To ensure uniform coverage of $bb(T)$, we build the point clouds using $k$-prefixes of the _greedy permutation_ of a dense point sample, for $k$ varying along evenly spaced points from $50$ to $2500$ (yielding complexes with sizes ranging from $2.0 dot 10^4$ to $2.6 dot 10^9$ simplices, respectively).
+For each $k$, we compute both the persistence of the Rips filtration $K$ up to the enclosing radius using the popular software _Ripser_ @bauer2021ripser and the Jacobi matrix of the $K$'s corresponding combinatorial Laplacian using the Lanczos method, up to degree $abs(K)$.  
+To maximize space efficiency, like _Ripser_, we use the _apparent pairs_ optimization to discard zero-persistence pairs (see @sec:apparent-pairs-optimization).
+For a fair comparison in terms of space usage, we record the maximum (heap) memory allocated by tracing all system allocations using the software _Memray_#footnote[See https://bloomberg.github.io/memray/memory.html for an overview of how memory is measured.].
+
 
 It's worth noting the results in @fig:ripser_vs_laplacian carry certain limitations. In particular, we only report the memory usage of both methods, rather than the time usage, as the method by Chen and Kerber is too complicated to implement. Additionally, _Ripser_ is computing persistence here with respect to $bb(Z) slash 2$ coefficients, whereas we rely on IEEE 64-bit floating precision arithmetic as a proxy for $bb(R)$ (thus the persistence diagrams are not identical). For more limitations, see @sec:concluding-remarks.
 // On the positive, though _Ripser_ is very memory efficient relative to other reduction implementations, as demonstrated by @fig:ripser_vs_laplacian, the space asymptotics eventually catch up and render.  
