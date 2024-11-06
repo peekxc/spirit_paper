@@ -40,4 +40,3 @@ Intuitively, when $cal(A) = bb(R)$, one can think of $alpha$ as a _time_ paramet
 //  _convex combinations_ of $f$ and $g$ e.g. $h_alpha = (1 - alpha) f + alpha g$ for all $alpha in lr([0 , 1])$, i.e.. More generally, any homotopy $$ between filtrations may be used. 
 
 - (Fibered barcode) For a 2-d persistence module $M$, a common invariant of interest is the _fibered barcode_, which is the collection of barcodes of $1$-d affine slices of $M$. These affine slices are themselves restrictions of a bifiltration parameterized by a 2-parameter family of lines homeomorphic to $[0,1] times bb(R)$ @lesnick2015interactive.
-// a 2-parameter family indexing a corresponding family of filtrations representing restrictions of a bifiltration.
