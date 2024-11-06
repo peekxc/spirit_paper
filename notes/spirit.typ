@@ -1,5 +1,5 @@
-#import "@preview/arkheion:0.1.0": arkheion, arkheion-appendices
 #import "@preview/lovelace:0.3.0": *
+#import "arxiv.typ": arxiv
 #import "math_ops.typ": *
 #import "theorems.typ": *
 #show: thmrules 
@@ -28,11 +28,20 @@
 	#it 
 ]
 
-#show: arkheion.with(
-  title: "Spectral relaxation of the persistence rank invariant",
+#set footnote(numbering: "*")
+#show: arxiv.with(
+  title: [Spectral relaxation of the persistence rank invariant#footnote[This material is based upon work supported by the National Science Foundation under CAREER award DMS-2415445.]],
   authors: (
-    (name: "Matt Piekenbrock", email: "piekenbrock.m@northeastern.edu", affiliation: "Northeastern University"), // orcid: "0000-0000-0000-0000"
-    (name: "Jose Perea", email: "j.pereabenitez@northeastern.edu", affiliation: "Northeastern University"),
+    (
+      name: [Matt Piekenbrock#footnote[Khoury College of Computer Sciences, Northeastern University.]],
+      email: "piekenbrock.m@northeastern.edu"
+      // affiliation: "Northeastern University"
+    ),
+    (
+      name: [Jose Perea#footnote[Department of Mathematics and Khoury College of Computer Sciences, Northeastern University]], 
+      email: "j.pereabenitez@northeastern.edu", 
+      // affiliation: "Northeastern University"
+    ),
   ),
   abstract: align(left, [
 		Using a duality result between persistence diagrams and persistence measures, we introduce a framework for constructing families of continuous relaxations of the persistent rank invariant for parametrized families of persistence vector spaces indexed over the real line. Like the rank invariant, these families obey inclusion-exclusion, derive from simplicial boundary operators, and encode all the information needed to construct a persistence diagram. 
@@ -42,6 +51,7 @@
   keywords: ("Topological Data Analysis", "Persistent Homology", "Matrix functions"),
   // date: "May 16, 2023",
 )
+#set footnote(numbering: "1")
 
 // #set par(spacing: 1.0em)
 #show math.equation: set block(above: 1.20em, below: 1.20em)

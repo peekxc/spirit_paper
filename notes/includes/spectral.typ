@@ -90,7 +90,7 @@ In these sense above, @eq:laplacian_decouple is simply choosing a particular inn
 ]
 
 == Spectral rank relaxation <sec:spectral_relax>
-Under mild assumptions on $f_alpha$, the entries of the boundary operators from @eq:rank_equiv_param are continuous functions of $alpha$ when $S$ is substituted appropriately with smoothstep functions. In contrast, the quantities from @prop:mu_betti_1 are by definition discontinuous functions, as they are integer-valued due to the rank function. To circumvent this issue, we consider the spectral characterization of the rank function: 
+Under mild assumptions on $f_alpha$, the entries of the boundary operators from @eq:rank_equiv_param are continuous functions of $alpha$ when $S$ is substituted appropriately with smooth step functions. In contrast, the quantities from @prop:mu_betti_1 are by definition discontinuous functions, as they are integer-valued due to the rank function. To circumvent this issue, we consider the spectral characterization of the rank function: 
 
 $ rank (X) = sum_(i = 1)^n sgn_+ (sigma_i (X)), 
 	quad quad 
@@ -161,7 +161,7 @@ $ norm(Phi_tau (A))_ast = sum_(i = 1)^n frac(sigma_i (A)^2, sigma_i (A)^2 + tau)
 
 The relaxation level $tau$ may be thought of as a regularization term that preferences smaller singular values: larger values smooth out $norm(Phi_tau lr((dot.op)))_ast$ by making the pseudo-inverse less sensitive to perturbations, whereas smaller values lead to a more faithful#footnote[This can be seen directly by @eq:tikhonov as well, wherein increasing $tau$ lowers the condition number of $A^T A + tau I$ monotonically, signaling a tradeoff in stability at the expense of accuracy.] approximations of the rank. In this sense, we interpret the quantities obtained by applying @eq:lowner to the terms from @prop:mu_betti_1 as _regularized RI approximation_. 
 
-#strong[Interpretation \#2:] In shape analysis applications, matrix functions are often used to simulate diffusion processes on meshes or graphs embedded in $bb(R)^d$ to obtain information of about their geometry. For example, consider a weighted graph $G = (V , E)$ with $n = abs(V)$ vertices with graph Laplacian $L_G = diff_1 diff_1^T$. The _heat_ of every vertex $v (t) in bb(R)^n$ as a function of time $t >= 0$ is governed by $L_G$ and the _heat equation_: 
+#strong[Interpretation \#2:] In spectral graph theory, matrix functions are often used to simulate diffusion processes on meshes or graphs embedded in $bb(R)^d$ to obtain information of about their geometry. For example, consider a weighted graph $G = (V , E)$ with $n = abs(V)$ vertices with graph Laplacian $L_G = diff_1 diff_1^T$. The _heat_ of every vertex $v (t) in bb(R)^n$ as a function of time $t >= 0$ is governed by $L_G$ and the _heat equation_: 
 
 $ v prime (t) = - L_G v (0) quad arrow.l.r.double quad L_G dot.op u (x , t) = - diff u (x , t) slash diff t $ <eq:heat_eq>
 
