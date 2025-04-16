@@ -1,5 +1,5 @@
 #import "../math_ops.typ": * 
-#import "../theorems.typ": *
+// #import "../theorems.typ": *
 
 = Introduction <sec:intro>
 Persistent homology @edelsbrunner2000topological (PH) is the most widely deployed tool for data analysis and learning applications within the topological data analysis (TDA) community. 

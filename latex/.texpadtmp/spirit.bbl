@@ -1,0 +1,437 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{28}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Edelsbrunner
+  et~al.}{2000}]{edelsbrunner2000topological}
+\begin{bchapter}
+\bauthor{\bsnm{Edelsbrunner}, \binits{H.}},
+\bauthor{\bsnm{Letscher}, \binits{D.}},
+\bauthor{\bsnm{Zomorodian}, \binits{A.}}:
+\bctitle{Topological persistence and simplification}.
+In: \bbtitle{Proceedings 41st Annual Symposium on Foundations of Computer
+  Science},
+pp. \bfpage{454}--\blpage{463}
+(\byear{2000}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Cerri et~al.}{2013}]{cerri2013betti}
+\begin{barticle}
+\bauthor{\bsnm{Cerri}, \binits{A.}},
+\bauthor{\bsnm{Fabio}, \binits{B.D.}},
+\bauthor{\bsnm{Ferri}, \binits{M.}},
+\bauthor{\bsnm{Frosini}, \binits{P.}},
+\bauthor{\bsnm{Landi}, \binits{C.}}:
+\batitle{Betti numbers in multidimensional persistent homology are stable
+  functions}.
+\bjtitle{Mathematical Methods in the Applied Sciences}
+\bvolume{36}(\bissue{12}),
+\bfpage{1543}--\blpage{1557}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Cohen-Steiner
+  et~al.}{2005}]{cohen2005stability}
+\begin{bchapter}
+\bauthor{\bsnm{Cohen-Steiner}, \binits{D.}},
+\bauthor{\bsnm{Edelsbrunner}, \binits{H.}},
+\bauthor{\bsnm{Harer}, \binits{J.}}:
+\bctitle{Stability of persistence diagrams}.
+In: \bbtitle{Proceedings of the Twenty-first Annual Symposium on Computational
+  Geometry},
+pp. \bfpage{263}--\blpage{271}
+(\byear{2005})
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Chazal et~al.}{2009}]{chazal2009gromov}
+\begin{bchapter}
+\bauthor{\bsnm{Chazal}, \binits{F.}},
+\bauthor{\bsnm{Cohen-Steiner}, \binits{D.}},
+\bauthor{\bsnm{Guibas}, \binits{L.J.}},
+\bauthor{\bsnm{M{\'e}moli}, \binits{F.}},
+\bauthor{\bsnm{Oudot}, \binits{S.Y.}}:
+\bctitle{Gromov-hausdorff stable signatures for shapes using persistence}.
+In: \bbtitle{Computer Graphics Forum},
+vol. \bseriesno{28},
+pp. \bfpage{1393}--\blpage{1403}
+(\byear{2009}).
+\bcomment{Wiley Online Library}
+\end{bchapter}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Scoccola and
+  Perea}{2023}]{scoccola2023fibered}
+\begin{bchapter}
+\bauthor{\bsnm{Scoccola}, \binits{L.}},
+\bauthor{\bsnm{Perea}, \binits{J.A.}}:
+\bctitle{Fibered: Fiberwise dimensionality reduction of topologically complex
+  data with vector bundles}.
+In: \bbtitle{39th International Symposium on Computational Geometry (SoCG
+  2023)}
+(\byear{2023}).
+\bcomment{Schloss Dagstuhl-Leibniz-Zentrum f{\"u}r Informatik}
+\end{bchapter}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Perea}{2016}]{perea2016persistent}
+\begin{bchapter}
+\bauthor{\bsnm{Perea}, \binits{J.A.}}:
+\bctitle{Persistent homology of toroidal sliding window embeddings}.
+In: \bbtitle{2016 IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)},
+pp. \bfpage{6435}--\blpage{6439}
+(\byear{2016}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Adams et~al.}{2017}]{adams2017persistence}
+\begin{botherref}
+\oauthor{\bsnm{Adams}, \binits{H.}},
+\oauthor{\bsnm{Emerson}, \binits{T.}},
+\oauthor{\bsnm{Kirby}, \binits{M.}},
+\oauthor{\bsnm{Neville}, \binits{R.}},
+\oauthor{\bsnm{Peterson}, \binits{C.}},
+\oauthor{\bsnm{Shipman}, \binits{P.}},
+\oauthor{\bsnm{Chepushtanova}, \binits{S.}},
+\oauthor{\bsnm{Hanson}, \binits{E.}},
+\oauthor{\bsnm{Motta}, \binits{F.}},
+\oauthor{\bsnm{Ziegelmeier}, \binits{L.}}:
+Persistence images: A stable vector representation of persistent homology.
+Journal of Machine Learning Research
+\textbf{18}
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Bubenik et~al.}{2015}]{bubenik2015statistical}
+\begin{barticle}
+\bauthor{\bsnm{Bubenik}, \binits{P.}}, \betal:
+\batitle{Statistical topological data analysis using persistence landscapes.}
+\bjtitle{J. Mach. Learn. Res.}
+\bvolume{16}(\bissue{1}),
+\bfpage{77}--\blpage{102}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Perea et~al.}{2022}]{perea2022approximating}
+\begin{botherref}
+\oauthor{\bsnm{Perea}, \binits{J.A.}},
+\oauthor{\bsnm{Munch}, \binits{E.}},
+\oauthor{\bsnm{Khasawneh}, \binits{F.A.}}:
+Approximating continuous functions on persistence diagrams using template
+  functions.
+Foundations of Computational Mathematics,
+1--58
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Turner et~al.}{2014}]{turner2014persistent}
+\begin{barticle}
+\bauthor{\bsnm{Turner}, \binits{K.}},
+\bauthor{\bsnm{Mukherjee}, \binits{S.}},
+\bauthor{\bsnm{Boyer}, \binits{D.M.}}:
+\batitle{Persistent homology transform for modeling shapes and surfaces}.
+\bjtitle{Information and Inference: A Journal of the IMA}
+\bvolume{3}(\bissue{4}),
+\bfpage{310}--\blpage{344}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Piekenbrock and
+  Perea}{2021}]{piekenbrock2021move}
+\begin{botherref}
+\oauthor{\bsnm{Piekenbrock}, \binits{M.}},
+\oauthor{\bsnm{Perea}, \binits{J.A.}}:
+Move schedules: Fast persistence computations in coarse dynamic settings.
+arXiv preprint arXiv:2104.12285
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Chazal et~al.}{2016}]{chazal2016structure}
+\begin{bbook}
+\bauthor{\bsnm{Chazal}, \binits{F.}},
+\bauthor{\bsnm{De~Silva}, \binits{V.}},
+\bauthor{\bsnm{Glisse}, \binits{M.}},
+\bauthor{\bsnm{Oudot}, \binits{S.}}:
+\bbtitle{The Structure and Stability of Persistence Modules}
+vol. \bseriesno{10}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2016})
+\end{bbook}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Edelsbrunner and
+  Harer}{2022}]{edelsbrunner2022computational}
+\begin{bbook}
+\bauthor{\bsnm{Edelsbrunner}, \binits{H.}},
+\bauthor{\bsnm{Harer}, \binits{J.L.}}:
+\bbtitle{Computational Topology: an Introduction}.
+\bpublisher{American Mathematical Society}, \blocation{???}
+(\byear{2022})
+\end{bbook}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Zomorodian and
+  Carlsson}{2004}]{zomorodian2004computing}
+\begin{bchapter}
+\bauthor{\bsnm{Zomorodian}, \binits{A.}},
+\bauthor{\bsnm{Carlsson}, \binits{G.}}:
+\bctitle{Computing persistent homology}.
+In: \bbtitle{Proceedings of the Twentieth Annual Symposium on Computational
+  Geometry},
+pp. \bfpage{347}--\blpage{356}
+(\byear{2004})
+\end{bchapter}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Kim and
+  M{\'e}moli}{2021}]{kim2021spatiotemporal}
+\begin{barticle}
+\bauthor{\bsnm{Kim}, \binits{W.}},
+\bauthor{\bsnm{M{\'e}moli}, \binits{F.}}:
+\batitle{Spatiotemporal persistent homology for dynamic metric spaces}.
+\bjtitle{Discrete \& Computational Geometry}
+\bvolume{66},
+\bfpage{831}--\blpage{875}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Lesnick and
+  Wright}{2015}]{lesnick2015interactive}
+\begin{botherref}
+\oauthor{\bsnm{Lesnick}, \binits{M.}},
+\oauthor{\bsnm{Wright}, \binits{M.}}:
+Interactive visualization of 2-d persistence modules.
+arXiv preprint arXiv:1512.00180
+(2015)
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Cohen-Steiner et~al.}{2006}]{cohen2006vines}
+\begin{bchapter}
+\bauthor{\bsnm{Cohen-Steiner}, \binits{D.}},
+\bauthor{\bsnm{Edelsbrunner}, \binits{H.}},
+\bauthor{\bsnm{Morozov}, \binits{D.}}:
+\bctitle{Vines and vineyards by updating persistence in linear time}.
+In: \bbtitle{Proceedings of the Twenty-second Annual Symposium on Computational
+  Geometry},
+pp. \bfpage{119}--\blpage{126}
+(\byear{2006})
+\end{bchapter}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Dey and Wang}{2022}]{dey2022computational}
+\begin{bbook}
+\bauthor{\bsnm{Dey}, \binits{T.K.}},
+\bauthor{\bsnm{Wang}, \binits{Y.}}:
+\bbtitle{Computational Topology for Data Analysis}.
+\bpublisher{Cambridge University Press}, \blocation{???}
+(\byear{2022})
+\end{bbook}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Bauer et~al.}{2022}]{bauer2022keeping}
+\begin{botherref}
+\oauthor{\bsnm{Bauer}, \binits{U.}},
+\oauthor{\bsnm{Masood}, \binits{T.B.}},
+\oauthor{\bsnm{Giunti}, \binits{B.}},
+\oauthor{\bsnm{Houry}, \binits{G.}},
+\oauthor{\bsnm{Kerber}, \binits{M.}},
+\oauthor{\bsnm{Rathod}, \binits{A.}}:
+Keeping it sparse: Computing persistent homology revised.
+arXiv preprint arXiv:2211.09075
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Chen and Kerber}{2011}]{chen2011output}
+\begin{bchapter}
+\bauthor{\bsnm{Chen}, \binits{C.}},
+\bauthor{\bsnm{Kerber}, \binits{M.}}:
+\bctitle{An output-sensitive algorithm for persistent homology}.
+In: \bbtitle{Proceedings of the Twenty-seventh Annual Symposium on
+  Computational Geometry},
+pp. \bfpage{207}--\blpage{216}
+(\byear{2011})
+\end{bchapter}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Bhatia}{2013}]{bhatia2013matrix}
+\begin{bbook}
+\bauthor{\bsnm{Bhatia}, \binits{R.}}:
+\bbtitle{Matrix Analysis}
+vol. \bseriesno{169}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2013})
+\end{bbook}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Teng}{2010}]{teng2010laplacian}
+\begin{bchapter}
+\bauthor{\bsnm{Teng}, \binits{S.-H.}}:
+\bctitle{The laplacian paradigm: Emerging algorithms for massive graphs}.
+In: \bbtitle{Theory and Applications of Models of Computation: 7th Annual
+  Conference, TAMC 2010, Prague, Czech Republic, June 7-11, 2010. Proceedings
+  7},
+pp. \bfpage{2}--\blpage{14}
+(\byear{2010}).
+\bcomment{Springer}
+\end{bchapter}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Ubaru and Saad}{2016}]{ubaru2016fast}
+\begin{bchapter}
+\bauthor{\bsnm{Ubaru}, \binits{S.}},
+\bauthor{\bsnm{Saad}, \binits{Y.}}:
+\bctitle{Fast methods for estimating the numerical rank of large matrices}.
+In: \bbtitle{International Conference on Machine Learning},
+pp. \bfpage{468}--\blpage{477}
+(\byear{2016}).
+\bcomment{PMLR}
+\end{bchapter}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{M{\'e}moli
+  et~al.}{2022}]{memoli2022persistent}
+\begin{barticle}
+\bauthor{\bsnm{M{\'e}moli}, \binits{F.}},
+\bauthor{\bsnm{Wan}, \binits{Z.}},
+\bauthor{\bsnm{Wang}, \binits{Y.}}:
+\batitle{Persistent laplacians: Properties, algorithms and implications}.
+\bjtitle{SIAM Journal on Mathematics of Data Science}
+\bvolume{4}(\bissue{2}),
+\bfpage{858}--\blpage{884}
+(\byear{2022})
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Horak and Jost}{2013}]{horak2013spectra}
+\begin{barticle}
+\bauthor{\bsnm{Horak}, \binits{D.}},
+\bauthor{\bsnm{Jost}, \binits{J.}}:
+\batitle{Spectra of combinatorial laplace operators on simplicial complexes}.
+\bjtitle{Advances in Mathematics}
+\bvolume{244},
+\bfpage{303}--\blpage{336}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Mangasarian and
+  Chen}{1994}]{mangasarian1994class}
+\begin{botherref}
+\oauthor{\bsnm{Mangasarian}, \binits{O.}},
+\oauthor{\bsnm{Chen}, \binits{C.}}:
+A class of smoothing functions for nonlinear and mixed complementarity
+  problems.
+Technical report
+(1994)
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Bi et~al.}{2013}]{bi2013approximation}
+\begin{barticle}
+\bauthor{\bsnm{Bi}, \binits{S.}},
+\bauthor{\bsnm{Han}, \binits{L.}},
+\bauthor{\bsnm{Pan}, \binits{S.}}:
+\batitle{Approximation of rank function and its application to the nearest
+  low-rank correlation matrix}.
+\bjtitle{Journal of Global Optimization}
+\bvolume{57}(\bissue{4}),
+\bfpage{1113}--\blpage{1137}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Zhao}{2012}]{zhao2012approximation}
+\begin{barticle}
+\bauthor{\bsnm{Zhao}, \binits{Y.-B.}}:
+\batitle{An approximation theory of matrix rank minimization and its
+  application to quadratic equations}.
+\bjtitle{Linear Algebra and its Applications}
+\bvolume{437}(\bissue{1}),
+\bfpage{77}--\blpage{93}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

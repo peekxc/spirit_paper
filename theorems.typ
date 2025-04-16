@@ -1,5 +1,5 @@
 
-#import "@preview/ctheorems:1.1.3": *
+#import "@preview/ctheorems:1.1.2": *
 #show: thmrules.with(qed-symbol: $square$)
 
 #let thmplain = thmbox.with(

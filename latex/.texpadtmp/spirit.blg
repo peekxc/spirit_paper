@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.aux
+The style file: ../sn-mathphys-num.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../references.bib
+Warning--I didn't find a database entry for "sec:betti_derivation"
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty institution in mangasarian1994class
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 28 entries,
+            7480 wiz_defined-function locations,
+            1342 strings with 14959 characters,
+and the built_in function-call counts, 722540 in all, are:
+= -- 139336
+> -- 919
+< -- 425
++ -- 90419
+- -- 303
+* -- 13072
+:= -- 122996
+add.period$ -- 34
+call.type$ -- 28
+change.case$ -- 327
+chr.to.int$ -- 1093
+cite$ -- 29
+duplicate$ -- 1212
+empty$ -- 5622
+format.name$ -- 658
+if$ -- 189172
+int.to.chr$ -- 1
+int.to.str$ -- 55
+missing$ -- 0
+newline$ -- 412
+num.names$ -- 140
+pop$ -- 629
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 86543
+stack$ -- 0
+substring$ -- 65281
+swap$ -- 664
+text.length$ -- 436
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1142
+warning$ -- 1
+while$ -- 874
+width$ -- 0
+write$ -- 579
+(There were 2 warnings)
