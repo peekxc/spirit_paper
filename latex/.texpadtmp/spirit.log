@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.3)  16 APR 2025 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.3)  9 MAY 2025 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -458,34 +458,37 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \c@theorem=\count319
-\c@example=\count320
-\c@remark=\count321
-\c@definition=\count322
+\c@corollary=\count320
+\c@lemma=\count321
+\c@example=\count322
+\c@remark=\count323
+\c@definition=\count324
+\@brx=\box73
  (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
-\l__pdf_internal_box=\box73
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box74
 ) (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.aux)
 \openout1 = `spirit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -524,16 +527,16 @@ LaTeX Font Info:    ... okay on input line 37.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
+\scratchcounter=\count326
 \scratchdimen=\dimen198
-\scratchbox=\box74
-\nofMPsegments=\count325
-\nofMParguments=\count326
+\scratchbox=\box75
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count327
+\MPscratchCnt=\count329
 \MPscratchDim=\dimen199
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -541,13 +544,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \S on input line 37.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 37.
+LaTeX Info: Redefining \S on input line 48.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 48.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 37.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 37.
-Package hyperref Info: Link coloring ON on input line 37.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 48.
+Package hyperref Info: Link coloring ON on input line 48.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -555,56 +558,54 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
  (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.out) (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.out)
 \@outlinefile=\write3
 \openout3 = `spirit.out'.
 
-\c@lstlisting=\count331
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 73.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+\c@lstlisting=\count333
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 73.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 86.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 73.
+(Font)              size <8> substituted on input line 86.
 
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 73.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 86.
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 73.
+(Font)              size <6> substituted on input line 86.
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 73.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 86.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../images/spectral_relax_size_func.png, id=71, 1241.63875pt x 307.1475pt>
+<../images/spectral_relax_size_func.png, id=133, 1241.63875pt x 307.1475pt>
 File: ../images/spectral_relax_size_func.png Graphic file (type png)
 <use ../images/spectral_relax_size_func.png>
-Package pdftex.def Info: ../images/spectral_relax_size_func.png  used on input line 87.
+Package pdftex.def Info: ../images/spectral_relax_size_func.png  used on input line 99.
 (pdftex.def)             Requested size: 353.39886pt x 87.42078pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
-Package natbib Warning: Citation `sec:betti_derivation' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Reference `eq:dgm' on page 2 undefined on input line 93.
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -612,164 +613,257 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.101 \textbf{Contributions:}
-                              Our primary contribution is the introduction o... <../images/spectral_relax_size_func.png>]
-
-LaTeX Warning: Reference `prop:operator_props' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Reference `prop:spectral_rank_complexity' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Reference `sec:iterative_approx' on page 3 undefined on input line 101.
-
-
+l.115 
+       <../images/spectral_relax_size_func.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
-LaTeX Warning: Reference `cor::rank_reduction' on page 4 undefined on input line 152.
+LaTeX Warning: Reference `cor::rank_reduction' on page 4 undefined on input line 166.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-
-LaTeX Warning: Reference `eq:lower_left_rank' on page 5 undefined on input line 176.
-
-
-LaTeX Warning: Reference `eq:mu_four' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Reference `eq:betti_four' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Reference `cor:rank_reduction' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Reference `sec:proofs' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Reference `cor:rank_reduction' on page 5 undefined on input line 186.
-
-
-LaTeX Warning: Reference `eq:betti_four' on page 5 undefined on input line 186.
-
-
-LaTeX Warning: Reference `eq:mu_four' on page 5 undefined on input line 186.
-
-
-LaTeX Warning: Reference `cor:valid_pers' on page 5 undefined on input line 186.
-
-
-LaTeX Warning: Reference `cor:rank_reduction' on page 5 undefined on input line 190.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-LaTeX Warning: Reference `eq:betti_four' on page 6 undefined on input line 198.
-
-
-LaTeX Warning: Reference `eq:mu_four' on page 6 undefined on input line 198.
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 198--199
-[]\OT1/cmr/m/n/10 Computationally, observe that [][]2.2[][] reduces to one nul-lity com-pu-ta-tion and
- []
-
-
-LaTeX Warning: Reference `cor:rank_reduction' on page 6 undefined on input line 202.
-
-
-LaTeX Warning: Reference `eq:betti_four' on page 6 undefined on input line 202.
-
-
-LaTeX Warning: Reference `eq:mu_four' on page 6 undefined on input line 202.
-
-
-LaTeX Warning: Reference `lemma:rank' on page 6 undefined on input line 215.
+Overfull \vbox (8.66583pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-
-LaTeX Warning: Reference `fig:smoothstep' on page 7 undefined on input line 219.
-
-
-LaTeX Warning: Reference `cor:rank_reduction' on page 7 undefined on input line 223.
-
-
-LaTeX Warning: Reference `eq:betti_four' on page 7 undefined on input line 223.
-
-
-LaTeX Warning: Reference `eq:mu_four' on page 7 undefined on input line 223.
-
-
-LaTeX Warning: Reference `eq:pbn_parameterized' on page 7 undefined on input line 223.
-
-
-LaTeX Warning: Reference `eq:mu_parameterized' on page 7 undefined on input line 223.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \hbox (6.39728pt too wide) detected at line 247
-[] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] []
+Underfull \hbox (badness 4981) in paragraph at lines 266--268
+\OT1/cmr/m/it/10.03749 yield the cor-rect quan-ti-ties $\OML/cmm/m/it/10.03749 ^^V[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10.03749 K; f[]\OT1/cmr/m/n/10 ) = []([][])$ \OT1/cmr/m/it/10.03749 and $\OML/cmm/m/it/10.03749 ^^L[] \OT1/cmr/m/n/10 =
  []
-
-
-LaTeX Warning: Reference `prop:mu_betti_1' on page 8 undefined on input line 249.
-
-
-LaTeX Warning: Reference `prop:mu_betti_1' on page 8 undefined on input line 264.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
+Overfull \hbox (6.39728pt too wide) detected at line 300
+[] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] []
+ []
 
-LaTeX Warning: Reference `prop:mu_betti_1' on page 9 undefined on input line 285.
+
+Underfull \hbox (badness 1377) in paragraph at lines 320--321
+\OT1/cmr/m/n/10 Under mild assump-tions on $\OML/cmm/m/it/10.03749 f[]$\OT1/cmr/m/n/10 , the entries of the bound-ary oper-a-tors from
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-
-LaTeX Warning: Reference `prop:mu_betti_1' on page 10 undefined on input line 299.
-
-
-Overfull \vbox (0.98932pt too high) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
+<../images/cont_relax.png, id=331, 1348.03625pt x 336.25626pt>
+File: ../images/cont_relax.png Graphic file (type png)
+<use ../images/cont_relax.png>
+Package pdftex.def Info: ../images/cont_relax.png  used on input line 357.
+(pdftex.def)             Requested size: 372.0pt x 92.79143pt.
 
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 325.
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.374 \]
+         <../images/cont_relax.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 374--379
+
+ []
+
+
+Overfull \vbox (8.76015pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: Reference `alg:lap_matvec' on page 14 undefined on input line 420.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\left' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 434.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\right' on input line 434.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+<../images/codensity_ex.png, id=439, 2961.0625pt x 602.25pt>
+File: ../images/codensity_ex.png Graphic file (type png)
+<use ../images/codensity_ex.png>
+Package pdftex.def Info: ../images/codensity_ex.png  used on input line 503.
+(pdftex.def)             Requested size: 371.98438pt x 75.65784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.517 
+       <../images/codensity_ex.png>]
+<../images/elephant_sparsify.png, id=461, 1419.3025pt x 513.92pt>
+File: ../images/elephant_sparsify.png Graphic file (type png)
+<use ../images/elephant_sparsify.png>
+Package pdftex.def Info: ../images/elephant_sparsify.png  used on input line 522.
+(pdftex.def)             Requested size: 353.3954pt x 127.96211pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.533 
+       <../images/elephant_sparsify.png>]
+<../images/sw1pers_mu.png, id=477, 2539.4875pt x 1011.78pt>
+File: ../images/sw1pers_mu.png Graphic file (type png)
+<use ../images/sw1pers_mu.png>
+Package pdftex.def Info: ../images/sw1pers_mu.png  used on input line 552.
+(pdftex.def)             Requested size: 371.99432pt x 148.2096pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \hbox (badness 2409) in paragraph at lines 559--561
+\OT1/cmr/m/n/10 Regarding the param-e-ter-i-za-tion, we con-sider opti-miz-ing $\OML/cmm/m/it/10.03749 ^^\$ \OT1/cmr/m/n/10 over the inter-val
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.564 \subsection
+                 {Low memory persistence computations}\label{sec:low_memory} <../images/sw1pers_mu.png>]
+<../images/ripser_vs_laplacian.png, id=501, 546.54187pt x 347.79938pt>
+File: ../images/ripser_vs_laplacian.png Graphic file (type png)
+<use ../images/ripser_vs_laplacian.png>
+Package pdftex.def Info: ../images/ripser_vs_laplacian.png  used on input line 570.
+(pdftex.def)             Requested size: 241.79681pt x 153.8707pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.582 
+       <../images/ripser_vs_laplacian.png>]
+<../images/mpeg7_heattrace.png, id=521, 879.285pt x 606.265pt>
+File: ../images/mpeg7_heattrace.png Graphic file (type png)
+<use ../images/mpeg7_heattrace.png>
+Package pdftex.def Info: ../images/mpeg7_heattrace.png  used on input line 591.
+(pdftex.def)             Requested size: 241.79741pt x 166.71877pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.618 
+       <../images/mpeg7_heattrace.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 625--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--635
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 641--646
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 326.
+(hyperref)                than one, level fixed on input line 653.
 
-(/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12])
-
-Package natbib Warning: There were undefined citations.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 654.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13] (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.aux)
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29] (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34] (/Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47939pt have occurred.
@@ -778,21 +872,22 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `spirit.out' has not changed.
-(rerunfilecheck)             Checksum: B70EDF7E5EF59F4265BC7C069B52930D;1896.
+(rerunfilecheck)             Checksum: C852772898EBD692F88771FDCF04BB06;4606.
  ) 
 Here is how much of TeX's memory you used:
- 13782 strings out of 478542
- 202468 string characters out of 5850388
- 522314 words of memory out of 5000000
- 31392 multiletter control sequences out of 15000+600000
- 427825 words of font info for 124 fonts, out of 8000000 for 9000
+ 14096 strings out of 478542
+ 208486 string characters out of 5850388
+ 529288 words of memory out of 5000000
+ 31606 multiletter control sequences out of 15000+600000
+ 433288 words of font info for 144 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 87i,11n,94p,1441b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.pdf (13 pages, 558531 bytes).
+ 87i,11n,94p,1531b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /Users/mpiekenbrock/spirit_paper/latex/.texpadtmp/spirit.pdf (34 pages, 3512423 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

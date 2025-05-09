@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{28}
+\begin{thebibliography}{54}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -432,6 +432,343 @@ Technical report
 \bfpage{77}--\blpage{93}
 (\byear{2012})
 \end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Lanczos}{1950}]{lanczos1950iteration}
+\begin{botherref}
+\oauthor{\bsnm{Lanczos}, \binits{C.}}:
+An iteration method for the solution of the eigenvalue problem of linear
+  differential and integral operators
+(1950)
+\end{botherref}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Simon}{1984}]{simon1984analysis}
+\begin{barticle}
+\bauthor{\bsnm{Simon}, \binits{H.D.}}:
+\batitle{Analysis of the symmetric lanczos algorithm with reorthogonalization
+  methods}.
+\bjtitle{Linear algebra and its applications}
+\bvolume{61},
+\bfpage{101}--\blpage{131}
+(\byear{1984})
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Parlett}{1994}]{parlett1994we}
+\begin{barticle}
+\bauthor{\bsnm{Parlett}, \binits{B.N.}}:
+\batitle{Do we fully understand the symmetric lanczos algorithm yet}.
+\bjtitle{Brown et al}
+\bvolume{3},
+\bfpage{93}--\blpage{107}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Golub and Van~Loan}{2013}]{golub2013matrix}
+\begin{bbook}
+\bauthor{\bsnm{Golub}, \binits{G.H.}},
+\bauthor{\bsnm{Van~Loan}, \binits{C.F.}}:
+\bbtitle{Matrix Computations}.
+\bpublisher{JHU press}, \blocation{???}
+(\byear{2013})
+\end{bbook}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Edelsbrunner and
+  Parsa}{2014}]{edelsbrunner2014computational}
+\begin{bchapter}
+\bauthor{\bsnm{Edelsbrunner}, \binits{H.}},
+\bauthor{\bsnm{Parsa}, \binits{S.}}:
+\bctitle{On the computational complexity of betti numbers: reductions from
+  matrix rank}.
+In: \bbtitle{Proceedings of the Twenty-fifth Annual ACM-SIAM Symposium on
+  Discrete Algorithms},
+pp. \bfpage{152}--\blpage{160}
+(\byear{2014}).
+\bcomment{SIAM}
+\end{bchapter}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Sorensen}{1995}]{sorensen1995implicitly}
+\begin{botherref}
+\oauthor{\bsnm{Sorensen}, \binits{D.}}:
+Implicitly restarted arnoldi/lanczos methods and large scale svd applications.
+SVD and Signal Processing III,
+21--31
+(1995)
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Lehoucq et~al.}{1998}]{lehoucq1998arpack}
+\begin{bbook}
+\bauthor{\bsnm{Lehoucq}, \binits{R.B.}},
+\bauthor{\bsnm{Sorensen}, \binits{D.C.}},
+\bauthor{\bsnm{Yang}, \binits{C.}}:
+\bbtitle{ARPACK Users' Guide: Solution of Large-scale Eigenvalue Problems with
+  Implicitly Restarted Arnoldi Methods}.
+\bpublisher{SIAM}, \blocation{???}
+(\byear{1998})
+\end{bbook}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Musco et~al.}{2018}]{musco2018stability}
+\begin{bchapter}
+\bauthor{\bsnm{Musco}, \binits{C.}},
+\bauthor{\bsnm{Musco}, \binits{C.}},
+\bauthor{\bsnm{Sidford}, \binits{A.}}:
+\bctitle{Stability of the lanczos method for matrix function approximation}.
+In: \bbtitle{Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on
+  Discrete Algorithms},
+pp. \bfpage{1605}--\blpage{1624}
+(\byear{2018}).
+\bcomment{SIAM}
+\end{bchapter}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Paige}{1972}]{paige1972computational}
+\begin{barticle}
+\bauthor{\bsnm{Paige}, \binits{C.C.}}:
+\batitle{Computational variants of the lanczos method for the eigenproblem}.
+\bjtitle{IMA Journal of Applied Mathematics}
+\bvolume{10}(\bissue{3}),
+\bfpage{373}--\blpage{381}
+(\byear{1972})
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Meyer et~al.}{2021}]{meyer2021hutchpp}
+\begin{bchapter}
+\bauthor{\bsnm{Meyer}, \binits{R.A.}},
+\bauthor{\bsnm{Musco}, \binits{C.}},
+\bauthor{\bsnm{Musco}, \binits{C.}},
+\bauthor{\bsnm{Woodruff}, \binits{D.P.}}:
+\bctitle{Hutch++: Optimal stochastic trace estimation}.
+In: \bbtitle{Symposium on Simplicity in Algorithms (SOSA)},
+pp. \bfpage{142}--\blpage{155}
+(\byear{2021}).
+\bcomment{SIAM}
+\end{bchapter}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Bauer}{2021}]{bauer2021ripser}
+\begin{barticle}
+\bauthor{\bsnm{Bauer}, \binits{U.}}:
+\batitle{Ripser: efficient computation of vietoris--rips persistence barcodes}.
+\bjtitle{Journal of Applied and Computational Topology}
+\bvolume{5}(\bissue{3}),
+\bfpage{1}--\blpage{33}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{Heckbert and
+  Garland}{1997}]{heckbert1997survey}
+\begin{bchapter}
+\bauthor{\bsnm{Heckbert}, \binits{P.S.}},
+\bauthor{\bsnm{Garland}, \binits{M.}}:
+\bctitle{Survey of polygonal surface simplification algorithms}.
+(\byear{1997}).
+\bcomment{Siggraph}
+\end{bchapter}
+\endbibitem
+
+%%% 41
+\bibitem[\protect\citeauthoryear{Fugacci et~al.}{2020}]{fugacci2020topology}
+\begin{bchapter}
+\bauthor{\bsnm{Fugacci}, \binits{U.}},
+\bauthor{\bsnm{Kerber}, \binits{M.}},
+\bauthor{\bsnm{Manet}, \binits{H.}}:
+\bctitle{Topology-preserving terrain simplification}.
+In: \bbtitle{Proceedings of the 28th International Conference on Advances in
+  Geographic Information Systems},
+pp. \bfpage{36}--\blpage{47}
+(\byear{2020})
+\end{bchapter}
+\endbibitem
+
+%%% 42
+\bibitem[\protect\citeauthoryear{Perea and Harer}{2015}]{perea2015sliding}
+\begin{barticle}
+\bauthor{\bsnm{Perea}, \binits{J.A.}},
+\bauthor{\bsnm{Harer}, \binits{J.}}:
+\batitle{Sliding windows and persistence: An application of topological methods
+  to signal analysis}.
+\bjtitle{Foundations of computational mathematics}
+\bvolume{15},
+\bfpage{799}--\blpage{838}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 43
+\bibitem[\protect\citeauthoryear{Chen and Kerber}{2013}]{chen2013output}
+\begin{barticle}
+\bauthor{\bsnm{Chen}, \binits{C.}},
+\bauthor{\bsnm{Kerber}, \binits{M.}}:
+\batitle{An output-sensitive algorithm for persistent homology}.
+\bjtitle{Computational Geometry}
+\bvolume{46}(\bissue{4}),
+\bfpage{435}--\blpage{447}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 44
+\bibitem[\protect\citeauthoryear{Perea}{2018}]{perea2018brief}
+\begin{botherref}
+\oauthor{\bsnm{Perea}, \binits{J.A.}}:
+A brief history of persistence.
+arXiv preprint arXiv:1809.03624
+(2018)
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem[\protect\citeauthoryear{Diaconis et~al.}{2013}]{diaconis2013sampling}
+\begin{bchapter}
+\bauthor{\bsnm{Diaconis}, \binits{P.}},
+\bauthor{\bsnm{Holmes}, \binits{S.}},
+\bauthor{\bsnm{Shahshahani}, \binits{M.}}:
+\bctitle{Sampling from a manifold}.
+In: \bbtitle{Advances in Modern Statistical Theory and Applications: a
+  Festschrift in Honor of Morris L. Eaton}
+vol. \bseriesno{10},
+pp. \bfpage{102}--\blpage{126}.
+\bpublisher{Institute of Mathematical Statistics}, \blocation{???}
+(\byear{2013})
+\end{bchapter}
+\endbibitem
+
+%%% 46
+\bibitem[\protect\citeauthoryear{Bai et~al.}{2009}]{bai2009learning}
+\begin{barticle}
+\bauthor{\bsnm{Bai}, \binits{X.}},
+\bauthor{\bsnm{Yang}, \binits{X.}},
+\bauthor{\bsnm{Latecki}, \binits{L.J.}},
+\bauthor{\bsnm{Liu}, \binits{W.}},
+\bauthor{\bsnm{Tu}, \binits{Z.}}:
+\batitle{Learning context-sensitive shape similarity by graph transduction}.
+\bjtitle{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+\bvolume{32}(\bissue{5}),
+\bfpage{861}--\blpage{874}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem[\protect\citeauthoryear{Mukherjee et~al.}{2013}]{mukherjee2013rate}
+\begin{barticle}
+\bauthor{\bsnm{Mukherjee}, \binits{I.}},
+\bauthor{\bsnm{Rudin}, \binits{C.}},
+\bauthor{\bsnm{Schapire}, \binits{R.E.}}:
+\batitle{The rate of convergence of adaboost}.
+\bjtitle{The Journal of Machine Learning Research}
+\bvolume{14}(\bissue{1}),
+\bfpage{2315}--\blpage{2347}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 48
+\bibitem[\protect\citeauthoryear{Xiao et~al.}{2009}]{xiao2009graph}
+\begin{barticle}
+\bauthor{\bsnm{Xiao}, \binits{B.}},
+\bauthor{\bsnm{Hancock}, \binits{E.R.}},
+\bauthor{\bsnm{Wilson}, \binits{R.C.}}:
+\batitle{Graph characteristics from the heat kernel trace}.
+\bjtitle{Pattern Recognition}
+\bvolume{42}(\bissue{11}),
+\bfpage{2589}--\blpage{2606}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 49
+\bibitem[\protect\citeauthoryear{Johnson and
+  Jung}{2021}]{johnson2021instability}
+\begin{botherref}
+\oauthor{\bsnm{Johnson}, \binits{M.}},
+\oauthor{\bsnm{Jung}, \binits{J.-H.}}:
+Instability of the betti sequence for persistent homology and a stabilized
+  version of the betti sequence.
+arXiv preprint arXiv:2109.09218
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 50
+\bibitem[\protect\citeauthoryear{G{\"a}fvert and
+  Chach{\'o}lski}{2017}]{gafvert2017stable}
+\begin{botherref}
+\oauthor{\bsnm{G{\"a}fvert}, \binits{O.}},
+\oauthor{\bsnm{Chach{\'o}lski}, \binits{W.}}:
+Stable invariants for multiparameter persistence.
+arXiv preprint arXiv:1703.03632
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 51
+\bibitem[\protect\citeauthoryear{Epperly et~al.}{2024}]{epperly2024xtrace}
+\begin{barticle}
+\bauthor{\bsnm{Epperly}, \binits{E.N.}},
+\bauthor{\bsnm{Tropp}, \binits{J.A.}},
+\bauthor{\bsnm{Webber}, \binits{R.J.}}:
+\batitle{Xtrace: Making the most of every sample in stochastic trace
+  estimation}.
+\bjtitle{SIAM Journal on Matrix Analysis and Applications}
+\bvolume{45}(\bissue{1}),
+\bfpage{1}--\blpage{23}
+(\byear{2024})
+\end{barticle}
+\endbibitem
+
+%%% 52
+\bibitem[\protect\citeauthoryear{Lim}{2020}]{lim2020hodge}
+\begin{barticle}
+\bauthor{\bsnm{Lim}, \binits{L.-H.}}:
+\batitle{Hodge laplacians on graphs}.
+\bjtitle{Siam Review}
+\bvolume{62}(\bissue{3}),
+\bfpage{685}--\blpage{715}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 53
+\bibitem[\protect\citeauthoryear{Chung}{1997}]{chung1997spectral}
+\begin{bbook}
+\bauthor{\bsnm{Chung}, \binits{F.R.}}:
+\bbtitle{Spectral Graph Theory}
+vol. \bseriesno{92}.
+\bpublisher{American Mathematical Soc.}, \blocation{???}
+(\byear{1997})
+\end{bbook}
+\endbibitem
+
+%%% 54
+\bibitem[\protect\citeauthoryear{Goldberg}{2002}]{goldberg2002combinatorial}
+\begin{botherref}
+\oauthor{\bsnm{Goldberg}, \binits{T.E.}}:
+Combinatorial laplacians of simplicial complexes.
+Senior Thesis, Bard College
+\textbf{6}
+(2002)
+\end{botherref}
 \endbibitem
 
 \end{thebibliography}

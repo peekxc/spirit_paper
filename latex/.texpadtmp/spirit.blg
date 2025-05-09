@@ -20,52 +20,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../references.bib
-Warning--I didn't find a database entry for "sec:betti_derivation"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty institution in mangasarian1994class
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 28 entries,
+You've used 54 entries,
             7480 wiz_defined-function locations,
-            1342 strings with 14959 characters,
-and the built_in function-call counts, 722540 in all, are:
-= -- 139336
-> -- 919
-< -- 425
-+ -- 90419
-- -- 303
-* -- 13072
-:= -- 122996
-add.period$ -- 34
-call.type$ -- 28
-change.case$ -- 327
-chr.to.int$ -- 1093
-cite$ -- 29
-duplicate$ -- 1212
-empty$ -- 5622
-format.name$ -- 658
-if$ -- 189172
+            1479 strings with 19022 characters,
+and the built_in function-call counts, 1190599 in all, are:
+= -- 228576
+> -- 1686
+< -- 816
++ -- 147456
+- -- 519
+* -- 21938
+:= -- 203210
+add.period$ -- 64
+call.type$ -- 54
+change.case$ -- 573
+chr.to.int$ -- 2100
+cite$ -- 55
+duplicate$ -- 2271
+empty$ -- 9966
+format.name$ -- 1135
+if$ -- 311590
 int.to.chr$ -- 1
-int.to.str$ -- 55
+int.to.str$ -- 102
 missing$ -- 0
-newline$ -- 412
-num.names$ -- 140
-pop$ -- 629
+newline$ -- 734
+num.names$ -- 270
+pop$ -- 1131
 preamble$ -- 1
-purify$ -- 137
+purify$ -- 262
 quote$ -- 0
-skip$ -- 86543
+skip$ -- 142120
 stack$ -- 0
-substring$ -- 65281
-swap$ -- 664
-text.length$ -- 436
+substring$ -- 107078
+swap$ -- 1243
+text.length$ -- 803
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1142
+type$ -- 2192
 warning$ -- 1
-while$ -- 874
+while$ -- 1595
 width$ -- 0
-write$ -- 579
-(There were 2 warnings)
+write$ -- 1057
+(There was 1 warning)
