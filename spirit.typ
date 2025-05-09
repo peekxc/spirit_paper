@@ -38,7 +38,7 @@
       // affiliation: "Northeastern University"
     ),
     (
-      name: [Jose Perea#footnote[Department of Mathematics and Khoury College of Computer Sciences, Northeastern University]], 
+      name: [Jose A. Perea#footnote[Department of Mathematics and Khoury College of Computer Sciences, Northeastern University]], 
       email: "j.pereabenitez@northeastern.edu", 
       // affiliation: "Northeastern University"
     ),

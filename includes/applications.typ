@@ -112,7 +112,7 @@ As the persistence diagram may be entirely determined by rank computations, the 
 	#image("../images/ripser_vs_laplacian.png", width: 65%)],
 	placement: top, 
   caption: [
-		The "high watermark" maximum (heap) memory allocated by Ripser vs. Lanczos run with a constant degree on the Rips filtrations combinatorial Laplacian operator. To 
+    (Blue) The "high watermark" maximum (heap) memory allocated by Ripser in computing persistence of a Rips filtration $K$ up to the enclosing radius. (Red) the maximum memory allocated by the Jacobi matrix constructed from a degree-$abs(K)$ Lanczos expansion of $cal(L)_p (K)$. Note that the Jacobi matrix of $cal(L)_p (K)$ (or of some subset thereof) contains all the information needed to reconstruct the persistence invariants.
   ]
 )
 <fig:ripser_vs_laplacian>
@@ -155,21 +155,25 @@ $ op("dist")_(cal(X)) (X, X') = sum_(p=0)^d integral_(S^(d-1)) d_W (dgm_p (X, v)
 
 where $X, X' in cal(X)$. In most machine learning applications, distance metrics are often difficult---if not intractable--to analytically determine; instead, most practitioners either craft or learn task-specific pseudometrics that are easy to compute and discriminative enough for the given application. 
 
-We seek to learn shape-sensitive, discriminative pseudometrics from weaker persistence invariants. Towards this end, for some fixed simplicial complex $K$ and pair $(a,b) in Delta_+$, consider the following parameterization over $S^(d-1)$: 
+We seek to learn shape-sensitive, discriminative pseudometrics from weaker persistence invariants. Towards this end, consider the following parameterization, for some fixed simplicial complex $K$ and pair $(a,b) in Delta_+$, : 
 
-$ beta_p^(a,b)( X, v) =  abs({ (a',b') in dgm_p (K, v) : a' <= a, b < b' }) $
-
-When $d = 2$, this is a piecewise-constant function which is periodic over the interval $[0, 2 pi)$. The collection of all such curves over $Delta_+$ characterizes all the information in PHT, thus it is a natural candidate hypothesis space for learning algorithms. However, some choices of pairs $(a,b) in Delta_+$ may yield functions which have little-to-no information (e.g. they are constant), suggesting that some choices of $(a,b) in Delta_+$ may be more useful than others for the purpose of classification. 
+// $ beta_p^(a,b)( X, v) =  abs({ (a',b') in dgm_p (K, v) : a' <= a, b < b' }), quad forall med v in S^(d-1) $
+// $ cal(B)_(a,b)(v) = { beta_p^(a,b)( X, v) : v in S^(d-1) } $
+$ 
+  cal(B)_(a,b) : &  S^(d-1) & -> & bb(R) \ 
+  & v & |-> & beta_p^(a,b)( X, v)
+$
+where $beta_p^(a,b)(X, v) = abs({ (a',b') in dgm_p (K, v) : a' <= a, b < b' })$. When $d = 2$, this is a piecewise-constant function periodic over the interval $[0, 2 pi)$. The collection of all such curves over $Delta_+$ characterizes all the information in PHT, thus it is a natural candidate hypothesis space for learning algorithms. However, some choices of pairs $(a,b) in Delta_+$ may yield functions which have little-to-no information (e.g. identically zero or constant functions), suggesting that some choices of $(a,b) in Delta_+$ may be more useful than others for the purpose of classification. 
 
 To demonstrate another application of our methodology for shape classification, we apply our spectral relaxation to the MPEG-7 shape matching data set from @bai2009learning. 
 To build a classifier, we start by generating curves $cal(B)_(a,b) = { hat(beta)_p^(a,b)(K, v) }_(v in S^1)$
 for random choice $(a,b) in Delta_+$. These curves are used to build a hypothesis function $h_ast (x)$, for use in an ensemble model $H$: 
 
-$ H(x) = alpha_1 h_1 (x) + alpha_2 h_2 (x) + dots + alpha_t h_t (x) $
+$ H(x) = alpha_1 h_1 (x) + alpha_2 h_2 (x) + dots.h.c + alpha_t h_t (x) $
 
 To determine the coefficients $alpha_ast$, we use the classical AdaBoost method, sampling new hypothesis functions $h_ast$ randomly a bounded subset of $Delta_+$ with uniform probability. We choose the spectral relaxation $phi.alt (lambda, tau) = 1 - exp(-lambda slash tau)$ with a smoothing parameter $tau = 1 dot 10^(-1)$. Following @eq:heat_sf, the corresponding curves $cal(B)_(a,b)$ may be interpreted as combinations of _heat kernel traces_, which are known to be useful for characterizing graphs @xiao2009graph. 
 
-In @fig:mpeg7_curves, we plot the curves representing a hypothesis function generated for the ensemble classifier. Observe that highly similar shapes generate curves that maintain a large degree of intra-class similarity under the $ell_2$ norm whereas outliers are detected and retain dissimilarity between classes (e.g. the bent bone in the black class exhibits higher peaks in it signature compared to its class, but is highly class-similar.)
+In @fig:mpeg7_curves, we plot the curves associated to one such hypothesis function generated for the ensemble. Observe that highly similar shapes generate curves that maintain a large degree of intra-class similarity under the $ell_2$ norm whereas outliers are detected and retain dissimilarity between classes (e.g. the bent bone in the black class exhibits higher peaks in it signature compared to its class, but is highly class-similar). This suggests that, for some choice $(a,b) in Delta_+$ and certain choices of $phi.alt$, composing the spectrally-relaxed persistent rank function with the direction transform is viable strategy for generating _weak learners_ for machine learning purposes.  
 
 // opt for a simple ensemble model using AdaBoost with the : 
 
